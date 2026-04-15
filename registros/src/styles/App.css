@@ -1,0 +1,39 @@
+/* src/styles/App.css */
+:root {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #252525;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 3px solid #646cff;
+}
+
+main {
+  padding: 2rem;
+  flex: 1;
+}
+
+.container-projetos {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  background: #252525;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
